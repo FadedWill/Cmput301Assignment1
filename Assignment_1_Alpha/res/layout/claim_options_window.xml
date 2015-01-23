@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+  >
+
+<LinearLayout 
+    android:id="@+id/pop_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center|left"
+    android:orientation="vertical"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+     android:background="@color/white"
+     >
+
+
+		 <LinearLayout
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	    	android:padding="8dp"
+        	>
+		          <ImageView
+		              android:id="@+id/add_claim_button"
+		              android:layout_width="40dp"
+	              	  android:layout_height="40dp"
+	              	  android:src="@drawable/claim_add_icon"
+	              	  android:scaleType="fitCenter"
+	              	  
+		              />
+		          <TextView
+		              android:layout_width="wrap_content"
+	              	  android:layout_height="fill_parent"
+	              	  android:layout_marginLeft="10dp"
+	              	  android:text="Add Claim"
+	              	  android:textSize="22dip"
+	              	  android:gravity="left|center"
+	              	  android:textColor="@color/skyblue"
+		              />
+		      </LinearLayout>
+		<TextView
+		          android:layout_width="fill_parent"
+	              android:layout_height="0.2dp"
+	              android:background="@color/black"
+		          />
+
+		 <LinearLayout
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	    	android:padding="8dp"
+        	>
+		          <ImageView
+		              android:layout_width="40dp"
+	              	  android:layout_height="40dp"
+	              	  android:src="@drawable/claim_edit_icon"
+	              	  android:scaleType="fitCenter"
+		              />
+		          <TextView
+		              android:layout_width="wrap_content"
+	              	  android:layout_height="fill_parent"
+	              	  android:layout_marginLeft="10dp"
+	              	  android:text="Edit Claim"
+	              	  android:textSize="22dip"
+	              	  android:gravity="left|center"
+	              	  android:textColor="@color/skyblue"
+					  />
+		      </LinearLayout>
+		<TextView
+		          android:layout_width="fill_parent"
+	              android:layout_height="0.2dp"
+	              android:background="@color/black"
+		          />
+
+		 <LinearLayout
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	    	android:padding="8dp"
+        	>
+		          <ImageView
+		              android:layout_width="40dp"
+	              	  android:layout_height="40dp"
+	              	  android:src="@drawable/claim_delete_icon"
+	              	  android:scaleType="fitCenter"
+		              />
+		          <TextView
+		              android:layout_width="wrap_content"
+	              	  android:layout_height="fill_parent"
+	              	  android:layout_marginLeft="10dp"
+	              	  android:text="Delete Claim"
+	              	  android:textSize="22dip"
+	              	  android:gravity="left|center"
+	              	  android:textColor="@color/skyblue"
+		              />
+		      </LinearLayout>
+		<TextView
+		          android:layout_width="fill_parent"
+	              android:layout_height="0.2dp"
+	              android:background="@color/black"
+		          />
+
+
+</LinearLayout>
+</RelativeLayout>
