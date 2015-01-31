@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+  >
+
+<LinearLayout 
+    android:id="@+id/pop_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center|left"
+    android:orientation="vertical"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+     android:background="@color/white"
+     >
+
+
+		 <LinearLayout
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	    	android:padding="8dp"
+        	>
+		          <Button 
+		              android:id="@+id/add_claim_button"
+		              android:layout_width="40dp"
+	              	  android:layout_height="40dp"
+	              	  android:background="@drawable/button_picture"
+	              	  android:text="+"
+	              	  android:textSize="25sp"
+	              	  android:textColor="@color/white"
+	              	  android:scaleType="fitCenter"
+	              	  
+		              />
+		          <TextView
+		              android:layout_width="wrap_content"
+	              	  android:layout_height="fill_parent"
+	              	  android:layout_marginLeft="10dp"
+	              	  android:text="@string/pop_window_add_claim"
+	              	  android:textSize="22sp"
+	              	  android:gravity="left|center"
+	              	  android:textColor="@color/skyblue"
+		              />
+		      </LinearLayout>
+		<TextView
+		          android:layout_width="fill_parent"
+	              android:layout_height="0.2dp"
+	              android:background="@color/black"
+		          />
+
+		 <LinearLayout
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	    	android:padding="8dp"
+        	>
+		          <Button 
+		              android:id="@+id/info_button"
+		              android:layout_width="40dp"
+	              	  android:layout_height="40dp"
+	              	  android:background="@drawable/button_picture"
+	              	  android:text="☺"
+	              	  android:textSize="25sp"
+	              	  android:textColor="@color/white"
+	              	  android:scaleType="fitCenter"
+	              	  
+		              />
+		          <TextView
+		              android:layout_width="wrap_content"
+	              	  android:layout_height="fill_parent"
+	              	  android:layout_marginLeft="10dp"
+	              	  android:text="@string/pop_window_info"
+	              	  android:textSize="22sp"
+	              	  android:gravity="left|center"
+	              	  android:textColor="@color/skyblue"
+		              />
+		      </LinearLayout>
+		<TextView
+		          android:layout_width="fill_parent"
+	              android:layout_height="0.2dp"
+	              android:background="@color/black"
+		          />
+
+
+</LinearLayout>
+</RelativeLayout>

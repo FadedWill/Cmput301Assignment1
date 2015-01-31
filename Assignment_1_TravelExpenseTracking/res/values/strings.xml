@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TravelExpenseTracking</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_claim_options_pop_window">Claim_options_pop_window</string>
+    <string name="title_activity_claim">ClaimActivity</string>
+    <string name="title_activity_expense">ExpenseActivity</string>
+    <string name="activity_claim_title">Claim</string>
+    <string name="activity_claim_start_date">  Start Date</string>
+    <string name="activity_claim_date_format">YY/MM/DD</string>
+    <string name="activity_claim_end_date">  End Date</string>
+    <string name="activity_claim_destination">  Destination</string>
+    <string name="activity_claim_reason">  Reason for travel</string>
+    <string name="activity_claim_submit_button">Submit</string>
+    <string name="activity_claim_cancel_button">Cancel</string>
+    <string name="pop_window_add_claim">Add Claim</string>
+    <string name="pop_window_edit_claim">Edit Claim</string>
+    <string name="pop_window_info">Author Info</string>
+    <string name="activity_expense_title">Expense Item</string>
+    <string name="activity_expense_submit_button">Submit</string>
+    <string name="activity_expense_cancel_button">Cancel</string>
+    <string name="activity_expense_date">Date</string>
+    <string name="activity_expense_category">Category</string>
+    <string name="activity_expense_amount">Amount</string>
+    <string name="activity_expense_currency">Currency</string>
+    <string name="activity_expense_description">Description</string>
+    <string name="category_air_fare">air fare</string>
+    <string name="category_ground_transport">ground transport</string>
+    <string name="category_vehicle_rental">vehicle rental</string>
+    <string name="category_fuel">fuel</string>
+    <string name="category_parking">parking</string>
+    <string name="category_registration">registration</string>
+    <string name="category_accommodation">accommodation</string>
+    <string name="category_meal">meal</string>
+    <string name="currency_CAD">CAD</string>
+    <string name="currency_USD">USD</string>
+    <string name="currency_EUR">EUR</string>
+    <string name="currency_GBP">GBP</string>
+    <string name="currency_CNY">CNY</string>
+    <string name="currency_JPY">JPY</string>
+    <string name="double_date_start">Start Date</string>
+    <string name="double_date_end">End Date</string>
+    <string name="claim_dialog_email">Email</string>
+    <string name="claim_dialog_edit">Edit</string>
+    <string name="claim_dialog_delete">Delete</string>
+    <string name="claim_dialog_add">Add New Expense</string>
+    <string name="claim_dialog_submit">Submit</string>
+    <string name="claim_return_toReturn">Return</string>
+    <string name="claim_return_email">Email</string>
+    <string name="claim_return_approve">Approve</string>
+    <string name="claim_return_delete">Delete</string>
+    <string name="claim_approve_email">Email</string>
+    <string name="claim_approve_delete">Delete</string>
+    <string name="claim_approve_check_description">Check Description</string>
+    <string name="expense_dialog_edit">Edit</string>
+    <string name="expense_dialog_delete">Delete</string>
+    <string name="claim_email_title">Send Claim</string>
+    <string name="claim_email_address">Target Email Address</string>
+    <string name="claim_email_enter">XXX@YYY.com</string>
+    <string name="claim_email_done">Confirm</string>
+    <string name="claim_email_cancel">Cancel</string>
+    <string name="title_activity_claim_email">ClaimEmailActivity</string>
+
+</resources>

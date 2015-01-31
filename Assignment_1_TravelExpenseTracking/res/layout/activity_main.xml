@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/skyblue"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end|top"
+        android:background="@drawable/top_bar" >
+
+        <ImageView
+            android:id="@+id/claim_options"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/claim_more_icon" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:scrollbars="vertical">
+    </ListView>
+
+</LinearLayout>
