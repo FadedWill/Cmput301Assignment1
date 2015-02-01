@@ -15,7 +15,7 @@
         android:theme="@android:style/Theme.NoTitleBar"
         android:windowSoftInputMode="adjustPan" >
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.assignment_1_TravelExpenseTracking.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,19 +24,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Claim_options_pop_window"
+            android:name="com.example.assignment_1_TravelExpenseTracking.ClaimOptionsPopWindow"
             android:label="@string/title_activity_claim_options_pop_window" >
         </activity>
         <activity
-            android:name=".ClaimActivity"
+            android:name="com.example.assignment_1_TravelExpenseTracking.ClaimActivity"
             android:label="@string/title_activity_claim" >
         </activity>
         <activity
-            android:name=".ExpenseActivity"
+            android:name="com.example.assignment_1_TravelExpenseTracking.ExpenseActivity"
             android:label="@string/title_activity_expense" >
         </activity>
         <activity
-            android:name=".ClaimEmailActivity"
+            android:name="com.example.assignment_1_TravelExpenseTracking.ClaimEmailActivity"
             android:label="@string/title_activity_claim_email" >
         </activity>
     </application>
