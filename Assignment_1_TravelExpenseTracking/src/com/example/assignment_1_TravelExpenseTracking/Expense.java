@@ -1,7 +1,5 @@
 package com.example.assignment_1_TravelExpenseTracking;
 
-import java.util.Calendar;
-
 public class Expense { // only about setters and getters
 /*
  * By the way, I already set spinner for category, description of expense item can be also seen, so the name

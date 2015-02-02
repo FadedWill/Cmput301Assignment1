@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">TravelExpenseTracking</string>
+    <string name="app_name">mingtuo_TravelExpenseTracking</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_claim_options_pop_window">Claim_options_pop_window</string>
